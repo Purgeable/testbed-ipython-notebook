@@ -1,0 +1,43 @@
+#
+# Code below will run both in Julia and Python 3
+#
+
+# For language comparison try:
+# http://quant-econ.net/py/python_essentials.html
+# http://quant-econ.net/jl/julia_essentials.html
+
+# or also:
+# https://learnxinyminutes.com/docs/julia/
+# https://learnxinyminutes.com/docs/python3/
+
+msg = "Hello, world!"
+print(msg)
+print("\n")
+
+a = 1
+b, c = 2, 3
+b, c = c, b 
+print("Result:", a+b+c)
+print("\n")
+
+arr = [5,4,6]
+print(arr)
+print("\n")
+
+
+# Resulting output 
+ 
+# >julia py_julia_bridge_code.txt
+# Hello, world!
+# Result:6
+# [5,4,6]
+# 
+# >python py_julia_bridge_code.txt
+# Hello, world!
+# 
+# 
+# Result: 6
+# 
+# 
+# [5, 4, 6]
+
